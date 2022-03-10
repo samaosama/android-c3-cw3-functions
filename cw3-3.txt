@@ -1,29 +1,43 @@
 public class Main
 {
 	public static void main(String[] args) {
-		looop();
-		System.out.println(temprature(23));
-		
-		int total=totalGrade(100,100);
-		
-		System.out.println(total);
+		System.out.println(totalGrade(100,100));
 	}
-	public static void looop(){
-	    for(int i=0; i<11; i++){
-	        System.out.println(i);
-	    }
+	public static int totalGrade(int num1, int num2){
+	    int total= num1+num2;
+	    return total;
+  
+ 
+
+}
+
+}
+
+public class Main
+{
+	public static void main(String[] args) {
+		System.out.println(temprature(24));
 	}
-	public static String temprature(int temp){
-	    if(temp>23){
+	public static String temprature(int temp1){
+	    if(temp1>23){
 	        return "Hot";
-	    }else if(temp<23){
-	        return "Cold";
 	    }
-	    return "good temp";
+	    else{
+	        return "Cold";
 	    }
 	    
 	}
-	public static int totalGrade(int num1, int num2){
-	    return num1+num2;
-	}
+}
+
+
+public class Main
+{
+	public static void main(String[] args) {
+	    looop();
+}
+    public static void looop(){
+       for(int i=1; i<11; i++){
+           System.out.println(i);
+       }
+    }
 }
